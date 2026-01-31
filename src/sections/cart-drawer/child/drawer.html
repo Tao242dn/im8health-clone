@@ -1,0 +1,231 @@
+<cart-drawer class="cart-drawer drawer is-empty">
+  <div id="CartDrawer" class="cart-drawer">
+    <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
+    <div
+      class="drawer__inner gradient color-scheme-1"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Your cart"
+      tabindex="-1"
+    >
+      <div class="drawer__header">
+        <div class="drawer-header-inner">
+          <div class="drawer-count">
+            <svg
+              class="icon icon-cart"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.45011 5.45011L16 1.08232L26.5499 5.45011L30.9177 16L26.5499 26.5499L16 30.9177L5.45011 26.5499L1.08232 16L5.45011 5.45011Z"
+                stroke="#50000B"
+                stroke-width="2"
+              ></path>
+            </svg>
+            <span>0</span>
+          </div>
+          <h2 class="drawer__heading">Your cart</h2>
+        </div>
+
+        <button
+          class="drawer__close"
+          type="button"
+          onclick="this.closest('cart-drawer').close()"
+          aria-label="Close"
+        >
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1024_4673)">
+              <path
+                d="M25.4282 6.57227L6.57204 25.4284"
+                stroke="#50000B"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M25.428 25.4284L6.57178 6.57227"
+                stroke="#50000B"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_1024_4673">
+                <rect width="32" height="32" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+      <div class="drawer__inner-empty">
+        <div class="cart-drawer__warnings center">
+          <div class="cart-drawer__empty-content">
+            <img
+              src="//im8health.com/cdn/shop/files/empty_cart_image.png?v=1729056339"
+              alt=""
+              srcset="
+                //im8health.com/cdn/shop/files/empty_cart_image.png?v=1729056339&amp;width=300 300w,
+                //im8health.com/cdn/shop/files/empty_cart_image.png?v=1729056339&amp;width=384 384w,
+                //im8health.com/cdn/shop/files/empty_cart_image.png?v=1729056339&amp;width=400 400w,
+                //im8health.com/cdn/shop/files/empty_cart_image.png?v=1729056339&amp;width=500 500w
+              "
+              width="1173"
+              height="612"
+              fetchpriority="auto"
+              class="Custom_image_new"
+            />
+            <h2 class="cart__empty-text">
+              Your cart is empty, but your goal is just aclick away.
+            </h2>
+            <a href="/collections/all" class="button"> SHOP NOW </a>
+
+            <div class="quote__block">
+              <svg
+                width="64"
+                height="12"
+                viewBox="0 0 64 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3_1344)">
+                  <path
+                    d="M5.87081 9.23996C5.95026 9.19201 6.04973 9.19201 6.12918 9.23996L9.20074 11.0938C9.39007 11.2081 9.62363 11.0384 9.57339 10.823L8.75828 7.32894C8.73719 7.23857 8.7679 7.14395 8.83805 7.08319L11.5521 4.73197C11.7193 4.58717 11.6299 4.3126 11.4096 4.29391L7.83621 3.99074C7.74382 3.9829 7.66335 3.92457 7.62717 3.83919L6.23017 0.543092C6.14403 0.339835 5.85596 0.339835 5.76982 0.543092L4.37283 3.83919C4.33664 3.92457 4.25618 3.9829 4.16378 3.99074L0.590407 4.29391C0.370051 4.3126 0.280699 4.58717 0.447848 4.73197L3.16195 7.08319C3.23209 7.14395 3.2628 7.23857 3.24172 7.32894L2.4266 10.823C2.37636 11.0384 2.60992 11.2081 2.79925 11.0938L5.87081 9.23996Z"
+                    fill="#A40011"
+                  ></path>
+                </g>
+                <g clip-path="url(#clip1_3_1344)">
+                  <path
+                    d="M18.8708 9.23996C18.9503 9.19201 19.0497 9.19201 19.1292 9.23996L22.2007 11.0938C22.3901 11.2081 22.6236 11.0384 22.5734 10.823L21.7583 7.32894C21.7372 7.23857 21.7679 7.14395 21.838 7.08319L24.5521 4.73197C24.7193 4.58717 24.6299 4.3126 24.4096 4.29391L20.8362 3.99074C20.7438 3.9829 20.6633 3.92457 20.6272 3.83919L19.2302 0.543092C19.144 0.339835 18.856 0.339835 18.7698 0.543092L17.3728 3.83919C17.3366 3.92457 17.2562 3.9829 17.1638 3.99074L13.5904 4.29391C13.3701 4.3126 13.2807 4.58717 13.4478 4.73197L16.1619 7.08319C16.2321 7.14395 16.2628 7.23857 16.2417 7.32894L15.4266 10.823C15.3764 11.0384 15.6099 11.2081 15.7992 11.0938L18.8708 9.23996Z"
+                    fill="#A40011"
+                  ></path>
+                </g>
+                <g clip-path="url(#clip2_3_1344)">
+                  <path
+                    d="M31.8708 9.23996C31.9503 9.19201 32.0497 9.19201 32.1292 9.23996L35.2007 11.0938C35.3901 11.2081 35.6236 11.0384 35.5734 10.823L34.7583 7.32894C34.7372 7.23857 34.7679 7.14395 34.838 7.08319L37.5521 4.73197C37.7193 4.58717 37.6299 4.3126 37.4096 4.29391L33.8362 3.99074C33.7438 3.9829 33.6633 3.92457 33.6272 3.83919L32.2302 0.543092C32.144 0.339835 31.856 0.339835 31.7698 0.543092L30.3728 3.83919C30.3366 3.92457 30.2562 3.9829 30.1638 3.99074L26.5904 4.29391C26.3701 4.3126 26.2807 4.58717 26.4478 4.73197L29.1619 7.08319C29.2321 7.14395 29.2628 7.23857 29.2417 7.32894L28.4266 10.823C28.3764 11.0384 28.6099 11.2081 28.7992 11.0938L31.8708 9.23996Z"
+                    fill="#A40011"
+                  ></path>
+                </g>
+                <g clip-path="url(#clip3_3_1344)">
+                  <path
+                    d="M44.8708 9.23996C44.9503 9.19201 45.0497 9.19201 45.1292 9.23996L48.2007 11.0938C48.3901 11.2081 48.6236 11.0384 48.5734 10.823L47.7583 7.32894C47.7372 7.23857 47.7679 7.14395 47.838 7.08319L50.5521 4.73197C50.7193 4.58717 50.6299 4.3126 50.4096 4.29391L46.8362 3.99074C46.7438 3.9829 46.6633 3.92457 46.6272 3.83919L45.2302 0.543092C45.144 0.339835 44.856 0.339835 44.7698 0.543092L43.3728 3.83919C43.3366 3.92457 43.2562 3.9829 43.1638 3.99074L39.5904 4.29391C39.3701 4.3126 39.2807 4.58717 39.4478 4.73197L42.1619 7.08319C42.2321 7.14395 42.2628 7.23857 42.2417 7.32894L41.4266 10.823C41.3764 11.0384 41.6099 11.2081 41.7992 11.0938L44.8708 9.23996Z"
+                    fill="#A40011"
+                  ></path>
+                </g>
+                <g clip-path="url(#clip4_3_1344)">
+                  <path
+                    d="M57.8708 9.23996C57.9503 9.19201 58.0497 9.19201 58.1292 9.23996L61.2007 11.0938C61.3901 11.2081 61.6236 11.0384 61.5734 10.823L60.7583 7.32894C60.7372 7.23857 60.7679 7.14395 60.838 7.08319L63.5521 4.73197C63.7193 4.58717 63.6299 4.3126 63.4096 4.29391L59.8362 3.99074C59.7438 3.9829 59.6633 3.92457 59.6272 3.83919L58.2302 0.543092C58.144 0.339835 57.856 0.339835 57.7698 0.543092L56.3728 3.83919C56.3366 3.92457 56.2562 3.9829 56.1638 3.99074L52.5904 4.29391C52.3701 4.3126 52.2807 4.58717 52.4478 4.73197L55.1619 7.08319C55.2321 7.14395 55.2628 7.23857 55.2417 7.32894L54.4266 10.823C54.3764 11.0384 54.6099 11.2081 54.7992 11.0938L57.8708 9.23996Z"
+                    fill="#A40011"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_3_1344">
+                    <rect width="12" height="12" fill="white"></rect>
+                  </clipPath>
+                  <clipPath id="clip1_3_1344">
+                    <rect
+                      width="12"
+                      height="12"
+                      fill="white"
+                      transform="translate(13)"
+                    ></rect>
+                  </clipPath>
+                  <clipPath id="clip2_3_1344">
+                    <rect
+                      width="12"
+                      height="12"
+                      fill="white"
+                      transform="translate(26)"
+                    ></rect>
+                  </clipPath>
+                  <clipPath id="clip3_3_1344">
+                    <rect
+                      width="12"
+                      height="12"
+                      fill="white"
+                      transform="translate(39)"
+                    ></rect>
+                  </clipPath>
+                  <clipPath id="clip4_3_1344">
+                    <rect
+                      width="12"
+                      height="12"
+                      fill="white"
+                      transform="translate(52)"
+                    ></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="quote">
+                “After decades at NASA studying the effects of space on the
+                human body, I saw an opportunity with IM8 to apply that
+                knowledge here on Earth. I joined because I’m passionate about
+                using cutting-edge science to enhance daily well-being and
+                longevity for everyone.”
+              </p>
+              <span class="name"
+                >James Green - Former Chief Scientist of NASA</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="drawer__inner_scroll">
+        <cart-drawer-items class="is-empty">
+          <form
+            action="/cart"
+            id="CartDrawer-Form"
+            class="cart__contents cart-drawer__form"
+            method="post"
+          >
+            <div id="CartDrawer-CartItems" class="drawer__contents js-contents">
+              <p
+                id="CartDrawer-LiveRegionText"
+                class="visually-hidden"
+                role="status"
+              ></p>
+              <p
+                id="CartDrawer-LineItemStatus"
+                class="visually-hidden"
+                aria-hidden="true"
+                role="status"
+              >
+                Loading...
+              </p>
+            </div>
+            <div id="CartDrawer-CartErrors" role="alert"></div>
+          </form>
+        </cart-drawer-items>
+      </div>
+      <div class="drawer__footer">
+        <div class="cart-drawer__footer">
+          <div class="cart__ctas">
+            <button
+              type="submit"
+              id="CartDrawer-Checkout"
+              class="cart__checkout-button button"
+              name="checkout"
+              form="CartDrawer-Form"
+              disabled=""
+            >
+              CONTINUE TO CHECKOUT – $0
+            </button>
+          </div>
+          <small class="tax-note caption-large rte"
+            >Shipping and taxes calculated at checkout
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</cart-drawer>
