@@ -4,7 +4,7 @@ A modern landing page clone built with Vite and HTML/CSS/JavaScript.
 
 ## Project Overview
 
-This project is a faithful recreation of the TrySculptique landing page using modern web development practices. It features a responsive design with modular components and sections.
+This project is a faithful recreation of the IM8Health landing page using modern web development practices. It features a responsive design with modular components and sections.
 
 ## Project Structure
 
