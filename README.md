@@ -12,7 +12,6 @@ This project is a faithful recreation of the IM8Health landing page using modern
 im8health-clone/
 ├── index.html                 # Main entry point with component loader
 ├── script.js                  # Client-side JavaScript logic
-├── styles.css                 # Primary stylesheet
 ├── package.json               # Project configuration
 ├── vite.config.js             # Vite configuration
 ├── src/
