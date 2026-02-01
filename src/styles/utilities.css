@@ -1,0 +1,350 @@
+/* Custom Font Definitions */
+@font-face {
+  font-family: "Aeonik";
+  src:
+    url("//im8health.com/cdn/shop/files/aeonik_regular-webfont.woff2?v=12460513505982210348")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/aeonik_regular-webfont.woff?v=9635540714557337525")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src:
+    url("//im8health.com/cdn/shop/files/Aeonik-Medium.woff2?v=5254662183358376707")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/Aeonik-Medium.woff?v=6258874630143427385")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src:
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Light.woff2?v=11368922346653382944")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Light.woff?v=4919727682615412285")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src:
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Regular.woff2?v=5952139655696401591")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Regular.woff?v=17401789925453593962")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src:
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Medium.woff2?v=5523411282462462931")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Medium.woff?v=1151062903811322684")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src:
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Bold.woff2?v=1940469715540154152")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/ABCArizonaFlare-Bold.woff?v=6559947587640107759")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NB Architekt";
+  src:
+    url("//im8health.com/cdn/shop/files/nb_architekt_light-webfont.woff2?v=1919209328747479563")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/nb_architekt_light-webfont.woff?v=12653660277270904596")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NB Architekt";
+  src:
+    url("//im8health.com/cdn/shop/files/nb_architekt_regular-webfont.woff2?v=14139702887360922506")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/nb_architekt_regular-webfont.woff?v=5746192009211289463")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NB Architekt";
+  src:
+    url("//im8health.com/cdn/shop/files/nb_architekt_bold-webfont.woff2?v=14998712681787258285")
+      format("woff2"),
+    url("//im8health.com/cdn/shop/files/nb_architekt_bold-webfont.woff?v=612185585488115032")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Assistant;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("//im8health.com/cdn/fonts/assistant/assistant_n4.9120912a469cad1cc292572851508ca49d12e768.woff2")
+      format("woff2"),
+    url("//im8health.com/cdn/fonts/assistant/assistant_n4.6e9875ce64e0fefcd3f4446b7ec9036b3ddd2985.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: Assistant;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("//im8health.com/cdn/fonts/assistant/assistant_n7.bf44452348ec8b8efa3aa3068825305886b1c83c.woff2")
+      format("woff2"),
+    url("//im8health.com/cdn/fonts/assistant/assistant_n7.0c887fee83f6b3bda822f1150b912c72da0f7b64.woff")
+      format("woff");
+}
+
+/* Color Schemes and CSS Variables */
+:root,
+.color-scheme-1 {
+  --color-background: 255, 255, 255;
+  --gradient-background: #ffffff;
+  --color-foreground: 80, 0, 11;
+  --color-background-contrast: 191, 191, 191;
+  --color-shadow: 80, 0, 11;
+  --color-button: 164, 0, 17;
+  --color-button-text: 255, 255, 255;
+  --color-secondary-button: 255, 255, 255;
+  --color-secondary-button-text: 164, 0, 17;
+  --color-link: 164, 0, 17;
+  --color-badge-foreground: 80, 0, 11;
+  --color-badge-background: 255, 255, 255;
+  --color-badge-border: 80, 0, 11;
+  --payment-terms-background-color: rgb(255 255 255);
+}
+
+.color-scheme-2 {
+  --color-background: 80, 0, 11;
+  --gradient-background: #50000b;
+  --color-foreground: 255, 150, 147;
+  --color-background-contrast: 255, 80, 104;
+  --color-shadow: 255, 150, 147;
+  --color-button: 255, 150, 147;
+  --color-button-text: 80, 0, 11;
+  --color-secondary-button: 80, 0, 11;
+  --color-secondary-button-text: 255, 150, 147;
+  --color-link: 255, 150, 147;
+  --color-badge-foreground: 255, 150, 147;
+  --color-badge-background: 80, 0, 11;
+  --color-badge-border: 255, 150, 147;
+  --payment-terms-background-color: rgb(80 0 11);
+}
+
+.color-scheme-3 {
+  --color-background: 164, 0, 17;
+  --gradient-background: #a40011;
+  --color-foreground: 255, 255, 255;
+  --color-background-contrast: 190, 0, 20;
+  --color-shadow: 164, 0, 17;
+  --color-button: 255, 255, 255;
+  --color-button-text: 164, 0, 17;
+  --color-secondary-button: 164, 0, 17;
+  --color-secondary-button-text: 255, 255, 255;
+  --color-link: 255, 255, 255;
+  --color-badge-foreground: 255, 255, 255;
+  --color-badge-background: 164, 0, 17;
+  --color-badge-border: 255, 255, 255;
+  --payment-terms-background-color: rgb(164 0 17);
+}
+
+.color-scheme-4 {
+  --color-background: 18, 18, 18;
+  --gradient-background: #121212;
+  --color-foreground: 255, 255, 255;
+  --color-background-contrast: 146, 146, 146;
+  --color-shadow: 18, 18, 18;
+  --color-button: 255, 255, 255;
+  --color-button-text: 18, 18, 18;
+  --color-secondary-button: 18, 18, 18;
+  --color-secondary-button-text: 255, 255, 255;
+  --color-link: 255, 255, 255;
+  --color-badge-foreground: 255, 255, 255;
+  --color-badge-background: 18, 18, 18;
+  --color-badge-border: 255, 255, 255;
+  --payment-terms-background-color: rgb(18 18 18);
+}
+
+.color-scheme-5 {
+  --color-background: 0, 0, 0;
+  --gradient-background: rgba(0, 0, 0, 0);
+  --color-foreground: 255, 255, 255;
+  --color-background-contrast: 128, 128, 128;
+  --color-shadow: 18, 18, 18;
+  --color-button: 255, 255, 255;
+  --color-button-text: 164, 0, 17;
+  --color-secondary-button: 0, 0, 0;
+  --color-secondary-button-text: 255, 255, 255;
+  --color-link: 255, 255, 255;
+  --color-badge-foreground: 255, 255, 255;
+  --color-badge-background: 0, 0, 0;
+  --color-badge-border: 255, 255, 255;
+  --payment-terms-background-color: rgb(0 0 0);
+}
+
+bodyscheme-5,
+.color-scheme-5 {
+  color: rgba(var(--color-foreground));
+  background-color: rgb(var(--color-background));
+}
+
+:root {
+  --font-body-family: "Aeonik", sans-serif;
+  --font-body-style: normal;
+  --font-body-weight: 400;
+  --font-body-weight-bold: 700;
+
+  --font-heading-family: "ABC Arizona Flare", sans-serif;
+  --font-heading-style: normal;
+  --font-heading-weight: 500;
+
+  --font-nb-architekt: "NB Architekt", sans-serif;
+
+  --font-body-scale: 1;
+  --font-heading-scale: 1;
+
+  --media-padding: px;
+  --media-border-opacity: 0.05;
+  --media-border-width: 1px;
+  --media-radius: 0px;
+  --media-shadow-opacity: 0;
+  --media-shadow-horizontal-offset: 0px;
+  --media-shadow-vertical-offset: 4px;
+  --media-shadow-blur-radius: 5px;
+  --media-shadow-visible: 0;
+
+  --page-width: 150rem;
+  --page-width-margin: 0rem;
+
+  --product-card-image-padding: 0rem;
+  --product-card-corner-radius: 0rem;
+  --product-card-text-alignment: left;
+  --product-card-border-width: 0rem;
+  --product-card-border-opacity: 0.1;
+  --product-card-shadow-opacity: 0;
+  --product-card-shadow-visible: 0;
+  --product-card-shadow-horizontal-offset: 0rem;
+  --product-card-shadow-vertical-offset: 0.4rem;
+  --product-card-shadow-blur-radius: 0.5rem;
+
+  --collection-card-image-padding: 0rem;
+  --collection-card-corner-radius: 0rem;
+  --collection-card-text-alignment: left;
+  --collection-card-border-width: 0rem;
+  --collection-card-border-opacity: 0.1;
+  --collection-card-shadow-opacity: 0;
+  --collection-card-shadow-visible: 0;
+  --collection-card-shadow-horizontal-offset: 0rem;
+  --collection-card-shadow-vertical-offset: 0.4rem;
+  --collection-card-shadow-blur-radius: 0.5rem;
+
+  --blog-card-image-padding: 0rem;
+  --blog-card-corner-radius: 0rem;
+  --blog-card-text-alignment: left;
+  --blog-card-border-width: 0rem;
+  --blog-card-border-opacity: 0.1;
+  --blog-card-shadow-opacity: 0;
+  --blog-card-shadow-visible: 0;
+  --blog-card-shadow-horizontal-offset: 0rem;
+  --blog-card-shadow-vertical-offset: 0.4rem;
+  --blog-card-shadow-blur-radius: 0.5rem;
+
+  --badge-corner-radius: 4rem;
+
+  --popup-border-width: 1px;
+  --popup-border-opacity: 0.1;
+  --popup-corner-radius: 0px;
+  --popup-shadow-opacity: 0.05;
+  --popup-shadow-horizontal-offset: 0px;
+  --popup-shadow-vertical-offset: 4px;
+  --popup-shadow-blur-radius: 5px;
+
+  --drawer-border-width: 1px;
+  --drawer-border-opacity: 0.1;
+  --drawer-shadow-opacity: 0;
+  --drawer-shadow-horizontal-offset: 0px;
+  --drawer-shadow-vertical-offset: 4px;
+  --drawer-shadow-blur-radius: 5px;
+
+  --spacing-sections-desktop: 0px;
+  --spacing-sections-mobile: 0px;
+
+  --grid-desktop-vertical-spacing: 16px;
+  --grid-desktop-horizontal-spacing: 16px;
+  --grid-mobile-vertical-spacing: 8px;
+  --grid-mobile-horizontal-spacing: 8px;
+
+  --text-boxes-border-opacity: 0.1;
+  --text-boxes-border-width: 0px;
+  --text-boxes-radius: 0px;
+  --text-boxes-shadow-opacity: 0;
+  --text-boxes-shadow-visible: 0;
+  --text-boxes-shadow-horizontal-offset: 0px;
+  --text-boxes-shadow-vertical-offset: 4px;
+  --text-boxes-shadow-blur-radius: 5px;
+
+  --buttons-radius: 0px;
+  --buttons-radius-outset: 0px;
+  --buttons-border-width: 1px;
+  --buttons-border-opacity: 1;
+  --buttons-shadow-opacity: 0;
+  --buttons-shadow-visible: 0;
+  --buttons-shadow-horizontal-offset: 0px;
+  --buttons-shadow-vertical-offset: 4px;
+  --buttons-shadow-blur-radius: 5px;
+  --buttons-border-offset: 0px;
+
+  --inputs-radius: 0px;
+  --inputs-border-width: 1px;
+  --inputs-border-opacity: 0.55;
+  --inputs-shadow-opacity: 0;
+  --inputs-shadow-horizontal-offset: 0px;
+  --inputs-margin-offset: 0px;
+  --inputs-shadow-vertical-offset: 4px;
+  --inputs-shadow-blur-radius: 5px;
+  --inputs-radius-outset: 0px;
+
+  --variant-pills-radius: 40px;
+  --variant-pills-border-width: 1px;
+  --variant-pills-border-opacity: 0.55;
+  --variant-pills-shadow-opacity: 0;
+  --variant-pills-shadow-horizontal-offset: 0px;
+  --variant-pills-shadow-vertical-offset: 4px;
+  --variant-pills-shadow-blur-radius: 5px;
+}

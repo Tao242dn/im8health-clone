@@ -35,5 +35,5 @@ Thumbs.db
 *.tmp
 .cache/
 
-style-1.css
+styles.css
 app.js

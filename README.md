@@ -1,4 +1,4 @@
-# Im8Health Clone
+# IM8Health Clone
 
 A modern landing page clone built with Vite and HTML/CSS/JavaScript.
 
@@ -21,6 +21,21 @@ im8health-clone/
 │   │
 │   ├── partials/
 │   │   └── head.html          # Global head (meta, fonts, styles, base scripts)
+│   │
+│   ├── scripts/               # JavaScript modules and utilities
+│   │   ├── background-animation.js      # Background animation effects
+│   │   ├── carousel-initializers.js     # Carousel/slider initialization
+│   │   ├── interactive-blocks.js        # Interactive UI components logic
+│   │   ├── layout-widgets.js            # Layout and widget management
+│   │   ├── media-optimization.js        # Media loading and optimization
+│   │   ├── product-manager.js           # Product data and state management
+│   │   └── swiper-factory.js            # Swiper.js integration factory
+│   │
+│   ├── styles/                # CSS stylesheets and utilities
+│   │   ├── base.css           # Base styles and resets
+│   │   ├── components.css     # Component-specific styles
+│   │   ├── main.css           # Main layout and page styles
+│   │   └── utilities.css      # Utility classes and helpers
 │   │
 │   └── sections/              # Page sections
 │       ├── cart-drawer/
@@ -79,6 +94,33 @@ im8health-clone/
 │               ├── advisors-list-group-two.html
 │               └── beckham-comparison.html
 ```
+
+---
+
+## Folder Structure Explanation
+
+### `src/scripts/`
+
+The scripts folder contains all JavaScript modules organized by functionality:
+
+- **background-animation.js** - Handles animated backgrounds and visual effects throughout the page
+- **carousel-initializers.js** - Initializes and manages carousel/slider components for product galleries
+- **interactive-blocks.js** - Controls interactive UI elements and their behaviors
+- **layout-widgets.js** - Manages layout calculations and widget positioning
+- **media-optimization.js** - Optimizes image and media loading for performance
+- **product-manager.js** - Handles product data, state management, and cart operations
+- **swiper-factory.js** - Creates and configures Swiper.js instances for carousels
+
+### `src/styles/`
+
+The styles folder contains modular CSS organized by purpose:
+
+- **base.css** - Global resets, typography, and base element styling
+- **components.css** - Styles for reusable UI components (buttons, cards, modals, etc.)
+- **main.css** - Primary layout styles and page-level styling
+- **utilities.css** - Utility classes for spacing, sizing, display, and common patterns
+
+This modular approach makes the CSS maintainable and scalable as the project grows.
 
 ---
 
@@ -157,7 +199,7 @@ The website is organized as a single-page application with modular sections load
 
 1. Clone the repository:
 ```bash
-git clone httpss://github.com/Tao242dn/im8health-clone
+git clone https://github.com/Tao242dn/im8health-clone
 cd im8health-clone
 ```
 
@@ -173,7 +215,7 @@ Start the development server:
 npm run dev
 ```
 
-The application will be available at `https://localhost:5173` (or another port if 5173 is busy).
+The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
 
 ### Building
 
