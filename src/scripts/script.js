@@ -3,34 +3,34 @@ import {
   initAccordion,
   initHsaModal,
   initTableSeeMore,
-} from "./src/scripts/layout-widgets.js";
+} from "./layout-widgets.js";
 
 import {
   initAnnouncementSlider,
   initRealReviewsVideoSlider,
   initStaticReviewsSlider,
   initCollectionSlider,
-} from "./src/scripts/carousel-initializers.js";
+} from "./carousel-initializers.js";
 
 import {
   initUrlHighlightMode,
   initVariantAutoSelect,
   initBfcmBanner,
   initStickyBuyButton,
-} from "./src/scripts/product-manager.js";
+} from "./product-manager.js";
 
 import {
   initOrganSystems,
   initPillarsHealthSection,
-} from "./src/scripts/interactive-blocks.js";
+} from "./interactive-blocks.js";
 
 import {
   initLazyVideosAndSwipers,
-} from "./src/scripts/media-optimization.js";
+} from "./media-optimization.js";
 
 import {
   initVantaBackground,
-} from "./src/scripts/background-animation.js";
+} from "./background-animation.js";
 
 /**
  * Main Initialization

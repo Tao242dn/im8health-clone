@@ -11,7 +11,6 @@ This project is a faithful recreation of the IM8Health landing page using modern
 ```
 im8health-clone/
 ├── index.html                 # Main entry point with component loader
-├── script.js                  # Client-side JavaScript logic
 ├── package.json               # Project configuration
 ├── vite.config.js             # Vite configuration
 ├── src/
@@ -28,6 +27,7 @@ im8health-clone/
 │   │   ├── layout-widgets.js            # Layout and widget management
 │   │   ├── media-optimization.js        # Media loading and optimization
 │   │   ├── product-manager.js           # Product data and state management
+│   │   ├── script.js                    # Client-side JavaScript logic
 │   │   └── swiper-factory.js            # Swiper.js integration factory
 │   │
 │   ├── styles/                # CSS stylesheets and utilities
